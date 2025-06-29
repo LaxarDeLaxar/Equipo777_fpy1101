@@ -18,6 +18,7 @@ while True:
     print("Programa finalizado.")
     break
   elif op == "1":
+    datos_LucianoR()
     pass # Aquí se llamará a la función del integrante 1
   elif op == "2":
     pass # Aquí se llamará a la función del integrante 2
