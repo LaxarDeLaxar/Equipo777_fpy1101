@@ -1,3 +1,4 @@
+
 def brandon_quiroz():
   import time
   from datetime import datetime
@@ -12,8 +13,6 @@ def brandon_quiroz():
       time.sleep(30)  # Verifica cada 30 segundos
   except KeyboardInterrupt:
     print("\n👋 Recordatorio finalizado.")
-
-
 while True:
   print("\n--- MENÚ PRINCIPAL ---")
   print("1. Función de integrante 1")
@@ -32,5 +31,4 @@ while True:
     pass # Aquí se llamará a la función del integrante 3
   else:
     print(" Opción inválida.")
-
 
