@@ -1,5 +1,18 @@
 
 
+def luciano_diaz(estilo):
+    import random
+    sonidos = {
+        "goregrind": ["*vómito*", "*sierras quirúrgicas*", "*guturales podridos*"],
+        "mincecore": ["*blastbeat político*", "*feedback eterno*", "*crítica social*"],
+        "powerviolence": ["*gritos rabiosos*", "*distorsión fea*", "*caos total*"]
+    }
+    if estilo in sonidos:
+        print(f"Tocando {estilo.upper()}: {random.choice(sonidos[estilo])}")
+    else:
+        print("Estilo no válido. Usa goregrind, mincecore o powerviolence.")
+
+
 def datos_LucianoR ():
   print("Mi nombre es Luciano Roca y tengo 23 años")
   print("Calculadora de area de un triangulo")
@@ -39,6 +52,6 @@ while True:
   elif op == "2":
     brandon_quiroz()
   elif op == "3":
-    pass # Aquí va el luciano negativo
+    luciano_diaz("mincecore")
   else:
     print(" Opción inválida.")
