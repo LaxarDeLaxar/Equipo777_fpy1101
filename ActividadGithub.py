@@ -11,14 +11,6 @@ def luciano_diaz(estilo):
     else:
         print("Estilo no válido. Usa goregrind, mincecore o powerviolence.")
 
-luciano_diaz("mincecore")
-
-
-
-
-
-
-
 while True:
   print("\n--- MENÚ PRINCIPAL ---")
   print("1. Función de integrante 1")
