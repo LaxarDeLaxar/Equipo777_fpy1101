@@ -1,4 +1,5 @@
 
+
 def luciano_diaz(estilo):
     import random
     sonidos = {
@@ -10,6 +11,31 @@ def luciano_diaz(estilo):
         print(f"Tocando {estilo.upper()}: {random.choice(sonidos[estilo])}")
     else:
         print("Estilo no válido. Usa goregrind, mincecore o powerviolence.")
+
+
+def datos_LucianoR ():
+  print("Mi nombre es Luciano Roca y tengo 23 años")
+  print("Calculadora de area de un triangulo")
+  a=int(input("Ingrese la base del triangulo: "))
+  b=int(input("Ingrese la altura del triangulo: "))
+  c=(a*b)/2
+  print(c)
+
+
+def brandon_quiroz():
+  import time
+  from datetime import datetime
+  horas = ["10:00", "13:00", "16:00", "19:00", "21:30"]
+  print("⏳ Recordatorio de fumar iniciado. Ctrl+C para salir.")
+  try:
+    while True:
+      ahora = datetime.now().strftime("%H:%M")
+      if ahora in horas:
+        print(f"🚬 ¡Hora de fumar! ({ahora})")
+        time.sleep(60)  # Espera 1 minuto para no repetir
+      time.sleep(30)  # Verifica cada 30 segundos
+  except KeyboardInterrupt:
+    print("\n👋 Recordatorio finalizado.")
 
 while True:
   print("\n--- MENÚ PRINCIPAL ---")
